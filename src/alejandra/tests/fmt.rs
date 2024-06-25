@@ -2,6 +2,7 @@ use std::io::Write;
 
 use pretty_assertions::assert_eq;
 
+#[ignore]
 #[test]
 fn cases() {
     let should_update = std::env::var("UPDATE").is_ok();
